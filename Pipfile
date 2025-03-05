@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+matplotlib = "3.8.0"
+geopandas = "<1.0"
+plotly = "*"
+seaborne = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.13"
